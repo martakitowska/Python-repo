@@ -11,7 +11,6 @@
 #print('-' * 20, "PROSTOKAT",'-' * 20 )
 
 print('MOJ PIEKNY PROSTOKAT')
-
 ask_user = True
 while ask_user is True:
     wysokosc = input('Podaj wysokosc prostokata: ')
@@ -34,4 +33,5 @@ while ask_user is True:
         print('Szerokosc i wysokosc musza byc liczba.')
     else:
         print("Podaj poprawne wartosci liczbowe.")
+
 
