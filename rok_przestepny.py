@@ -14,3 +14,5 @@ while ask_user is True:
             break
     else:
         print('Podaj poprawnie rok do sprawdzenia')
+
+
