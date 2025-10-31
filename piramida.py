@@ -4,6 +4,7 @@
     #####'''
 
 wysokosc_piramidy = input('Podaj wysokosc piramidy: ')
+
 user_input = True
 
 wysokosc_piramidy = int(wysokosc_piramidy)
