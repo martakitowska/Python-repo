@@ -1,12 +1,6 @@
 #import silnia, piramida, radius, box_drawing, rok_przestepny, rozmienianie_monet, dziesietna, kalkulator_temperatur
-import prostokat
-import dziesietna
-import kalkulator_temperatur
-import piramida
-import promien_kola
-import rok_przestepny
-import rozmienianie_monet
-import silnia
+from DAY_1 import dziesietna, kalkulator_temperatur, piramida, promien_kola, prostokat, rok_przestepny, \
+    rozmienianie_monet, silnia
 
 print("Zadania:\n"
       "1. kalkulator_temperatur\n"
