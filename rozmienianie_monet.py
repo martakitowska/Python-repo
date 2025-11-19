@@ -14,5 +14,7 @@ if kwota.isdigit():
         kwota = round(kwota - liczba_monet * x, 2)
         print(f'{x} zl - {liczba_monet}')
 
+print(wynik)
+
 
 
