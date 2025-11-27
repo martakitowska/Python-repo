@@ -28,7 +28,7 @@ import os
 import string
 
 # --- Ustawienia programu ---
-NAZWA_PLIKU_WEJSCIOWEGO = "tekst_do_analizy.txt"
+NAZWA_PLIKU_WEJSCIOWEGO = "tekst_do_analizy"
 NAZWA_PLIKU_STATYSTYK_PROGRAMU = "moje_statystyki_pracy.txt"
 
 # Zmienna przechowująca, czy liczymy małe i duże litery osobno.

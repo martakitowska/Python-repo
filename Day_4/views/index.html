@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+	<head>
+		<title>
+            {% block page_title %}
+                Hello from Flask
+            {% endblock %}
+        </title>
+	</head>
+	<body>
+        <p style="color: red">Nasz program we Flasku ;)</p>
+
+        <form action="{{ url_for('hi_post') }}" method="post">
+            <input value="{{ t_name }}" type="text" name="first_name" placeholder="Podaj imię" />
+            <input value="{{ t_age }}" type="text" name="age" placeholder="Podaj wiek" />
+            <input type="submit" value="Przywitaj sie"/>
+        </form>
+
+        {% block main_content %}
+            Hi
+        {% endblock %}
+        <!-- KOMENTARZ -->
+	</body>
+</html>

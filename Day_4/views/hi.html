@@ -1,0 +1,16 @@
+{% extends "index.html" %}
+
+{% block page_title %}
+    Hi {{ t_name }}
+{% endblock %}
+
+{% block main_content %}
+    <title>TEST</title>
+    <h1>
+        Hi <u>{{ t_name }}</u>
+        twoje imię ma {{ t_name | length }} znaków
+        {% if t_age is defined and t_age != '' %}
+            i masz {{ t_age }} lat
+        {% endif %}
+    </h1>
+{% endblock %}
