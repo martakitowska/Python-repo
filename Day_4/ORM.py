@@ -8,7 +8,6 @@ engine = create_engine(DATABASE_URL, echo=True)
 class Base(DeclarativeBase):
     pass
 
-
 class User(Base):
     __tablename__ = 'users'
 
